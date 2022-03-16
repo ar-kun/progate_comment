@@ -131,7 +131,8 @@ section {
   margin: 50px 120px;
 }
 
-.home li {
+.home li,
+.comment li {
   margin: 25px 0;
   text-align: center;
   list-style: none;
@@ -167,6 +168,7 @@ h2 {
 .comment .contentUser {
   display: flex;
   flex-direction: row;
+  margin-bottom: 50px;
 }
 
 .comment .user {
@@ -201,16 +203,10 @@ h2 {
 .comment a:hover {
   background-color: #736a87;
   box-shadow: 7px 7px 7px #736a87;
+  color: #f5f5f5;
 }
-.comment .addComment {
-  display: flex;
-  justify-content: center;
-  margin: 20px auto;
-}
-.addComment a {
-  padding: 10px 25px;
-  font-size: 20px;
-  border-radius: 10px;
+.comment li a {
+  padding: 10px 50px;
 }
 /* About */
 .about-content {
